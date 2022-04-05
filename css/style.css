@@ -1,0 +1,28 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+.site-header-main {
+    min-height: 800px;
+    margin: 0;
+
+    background-image:  url(../images/header-main.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.address{
+    color: #fff;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.header-img{
+    position: absolute;
+    margin: auto;
+    left: 39%;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+}
