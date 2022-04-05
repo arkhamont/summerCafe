@@ -6,10 +6,15 @@ body {
 .site-header-main {
     min-height: 800px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 
     background-image:  url(../images/header-main.png) ;
     background-size: 100%;
     background-repeat: no-repeat;
+
 }
 
 .address{
@@ -18,11 +23,40 @@ body {
     text-decoration: none;
 }
 
+.button-block-columns {
+    display: flex;
+    margin-bottom: 1.75em;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
 .header-img{
-    position: absolute;
-    margin: auto;
-    left: 39%;
-    top: 10%;
-    bottom: 0;
-    right: 0;
+    margin-top: 50px;
+}
+
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #777979 0%, #16122c 51%, #7c8180 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+
+.footsocial{
+    margin-top: 20px;
+    justify-content: space-between;
+    box-sizing: inherit;
+}
+
+.footsocial-child{
+    margin-left: 10px;
+    margin-right: 10px;
 }
